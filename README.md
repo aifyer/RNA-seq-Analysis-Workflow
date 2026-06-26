@@ -4,12 +4,6 @@ I have developed analysis workflows for a variety of high-throughput sequencing 
 
 This repository contains a generic RNA-seq analysis workflow for read alignment, quality assessment, gene-level counting, and differential expression analysis.
 
-## Files
-
-- `script0.sh`: aligns paired-end FASTQ files with STAR, indexes BAM files with samtools, and runs selected RSeQC quality-control steps.
-- `script1.R`: runs `featureCounts` to generate gene-level read counts from aligned BAM files.
-- `script2.R`: performs normalization, PCA, differential expression testing, and visualization using edgeR and related R packages.
-
 ## Workflow
 
 1. Prepare sample identifiers in `sample_ids.txt`.
